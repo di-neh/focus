@@ -1,0 +1,40 @@
+.TimerWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TimerText{
+    font-size: 96px;
+}
+
+.BtnsContainer{
+    display: flex;
+    gap: 16px;
+}
+
+.StartBtn{
+    background-color: #0A0A0A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.CancelBtn{
+    background-color: white;
+    border: 1px solid #d3c8c8;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.StartBtn:disabled,
+.CancelBtn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

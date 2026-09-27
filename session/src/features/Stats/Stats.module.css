@@ -1,0 +1,18 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
+.heading {
+    margin: 8px 0 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: #0A0A0A;
+}
+
+.cardsRow {
+    display: flex;
+    gap: 12px;
+}

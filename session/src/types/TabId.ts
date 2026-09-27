@@ -1,0 +1,1 @@
+export type TabId = 'tasks' | 'focus' | 'stats' | 'settings'

@@ -1,0 +1,41 @@
+.historyCard {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px;
+    background: #FFFFFF;
+    border: 1px solid #EFEFF2;
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rowText {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.title {
+    font-size: 14px;
+    color: #0A0A0A;
+}
+
+.time {
+    font-size: 12px;
+    color: #99A1AF;
+}
+
+.duration {
+    font-size: 13px;
+    color: #71717A;
+}
+
+.empty {
+    font-size: 14px;
+    color: #99A1AF;
+}

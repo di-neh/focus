@@ -1,0 +1,19 @@
+.btnContainer{
+    display: flex;
+    gap: 8px;
+}
+
+.filterBtn {
+    height: 36px;
+    padding: 6px 12px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.activeBtn {
+    background-color: black;
+    color: white;
+}

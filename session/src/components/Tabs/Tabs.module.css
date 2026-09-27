@@ -1,0 +1,10 @@
+.tabsWrapper {
+    display: flex;
+    gap: 0;
+    padding: 4px;
+    background: #EFEFF2;
+    border-radius: 999px;
+    width: 80%;
+    align-content: center;
+
+}

@@ -1,0 +1,1 @@
+export type FilterBtn = 'all' | 'active' | 'completed'
