@@ -2,7 +2,7 @@ import type {FC} from "react";
 import styles from './StatsCards.module.css'
 
 interface StatsCardsProps {
-    value: string
+    value: number
     label: string
 }
 

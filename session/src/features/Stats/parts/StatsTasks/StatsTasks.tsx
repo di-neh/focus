@@ -12,7 +12,6 @@ const StatsTasks = () => {
 
     const completedTasks = useCompletedTasksStore(state => state.completedTasks)
 
-
     if (completedTasks.length === 0) {
         return (
             <div className={styles.historyCard}>
